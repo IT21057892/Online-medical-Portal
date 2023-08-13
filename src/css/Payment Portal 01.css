@@ -1,0 +1,92 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 200px 0;
+    background-image: linear-gradient(90deg, #020024 0% ,#090979 1%, #00d4ff 100%);
+}
+
+.container form{
+    padding: 20px 0 20px 60px;
+    width: 600px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.285);
+}
+
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.container form .row .col{
+    flex: 1 1 250px;
+}
+
+.container form .row .col .title{
+    font-size: 30px;
+    color: rgb(8, 6, 6);
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+    margin: 15px 0;
+    padding-right: 25%;
+    width: 15px;
+  
+}
+
+.container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    color: rgb(8, 6, 6);
+    
+}
+
+.container form .row .col .inputBox .input{
+    width: 100%;
+    border: 1px solid rgb(234, 228, 228);
+    padding: 10px 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+
+.container form .row .col .inputBox input:focus{
+    border: 1px solid #000;
+}
+
+.container form .row .col .flex{
+    display: flex;
+    gap: 15px;
+}
+
+.container form .row .col .flex .inputBox{
+    margin-top: 5px;
+   
+}
+
+.container form #submit-btn_2{
+    width: 100%;
+    padding: 12px;
+    font-size: 17px;
+    background: #0f4a81;
+    color: rgb(233, 233, 233);
+    margin-top: 30px;
+    cursor: pointer;
+    border: none;
+    margin-right: 60px ;
+}
+
+.container form #submit-btn_2:hover{
+    background: #333
+}

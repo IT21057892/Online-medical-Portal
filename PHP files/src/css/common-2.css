@@ -1,0 +1,205 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row {
+    display: flex;
+    height: auto;
+    margin: 20px 0;
+    margin-bottom: 50px;
+}
+
+.col{
+width: 100px;
+margin: 10px;
+text-align: center;
+flex: 1 1 150px;
+}
+
+#title{
+    font-size: 3rem;
+    font-style: italic;
+    font-family: cursive;
+    margin: 0;
+}
+
+.circle{
+    width: 100%;
+    height: 209%;
+    text-align: left;
+    background: #0097DA;
+    border-radius: 81% / 82%;
+    margin: 7% 17% 9% -30%;
+}
+
+.circle-content{
+    position: relative;
+    float: right;
+    margin: 15% 8%;
+    color: #ffffff;
+
+}
+
+
+
+#form-continer{
+    justify-content: center;
+    margin-top: 27%;
+    margin-bottom: 5%;
+    height: auto;
+}
+
+.container h3{
+    text-align: center;
+    font-family: cursive;
+}
+
+.container{
+    padding: 10px 30px;
+    justify-content: center;
+    display: table;
+    width: 25%;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px 1px #0097DA;
+}
+
+.container input, .container select, .container textarea {
+    margin: 10px;
+    width: 90%;
+    padding: 10px;
+    border-radius: 12px;
+    border: 0.5px solid #12121278;
+}
+
+
+.submit-btn{
+    position: relative;
+    margin: 0 auto !important;
+    width: auto !important;
+    display: block;
+    background-color: #0097DA;
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    border: 0;
+    font-size: 1rem;
+}
+
+.card{
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px -5px;
+    padding: 5px;
+    margin: 5px;
+}
+
+.card img{
+    border-radius: 7px;
+
+}
+
+.card p{
+    text-align: left;
+    margin: 15px 25px;
+}
+
+.card-row{
+    flex-flow: row wrap;
+    height: auto;
+}
+
+.card-col{
+  display: flex;
+  padding: 10px;
+}
+
+
+@media (max-width:1300px){
+    .row{
+        flex-direction: row-reverse;
+    }
+
+    .circle {
+        width: 124%;
+        height: 135%;
+        text-align: left;
+        background: #0097DA;
+        border-radius: 80% / 80%;
+        margin: 7% 17% 9% 0%;
+    }
+
+    #title {
+        font-size: 2.5rem;
+    }
+
+
+    .circle-content {
+        margin: 12% 15%;
+    }
+
+    
+    #form-continer {
+        margin-top: 12%;
+    }
+
+    .container {
+        width: 40%;
+    }
+
+
+}
+
+
+@media (max-width:600px){
+    .circle {
+        width: 140%;
+        height: 110%;
+        border-radius: 80% / 80%;
+        margin: 7% 17% 9% -20%;
+    }
+
+    .circle-content {
+        margin: 12% 15%;
+    }
+    
+    #title {
+        font-size: 2.3rem;
+    }
+
+
+    .container {
+        width: 60%;
+    }
+}
+
+
+@media (max-width:410px){
+    .circle {
+        width: 268%;
+        height: 104%;
+        border-radius: 80% / 78%;
+        margin: -7% 1% 7% -85%;
+    }
+
+    .circle-content {
+        margin: 12% 15%;
+    }
+    
+    #title {
+        font-size: 1.8rem;
+        margin: 8% -4% -6% -12%;
+    }
+
+
+    .container {
+        width: 60%;
+    }
+
+    .container input {
+        margin: 10px;
+        width: 90%;
+        padding: 11px;
+        border-radius: 12px;
+        border: 0.5px solid #12121278;
+    }
+
+}

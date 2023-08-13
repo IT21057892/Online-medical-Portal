@@ -1,0 +1,26 @@
+*{
+    box-sizing: border-box;
+}
+
+.doc-img{
+    width: 75%;
+    height: auto;
+    border-radius: 28px;
+}
+
+@media (max-width:1300px){
+
+    .doc-img {
+        width: 100%;
+    }
+}
+
+
+        
+@media (max-width:410px){
+
+    .doc-img {
+        width: 134%;
+        margin: 325% -175px 4% 3%;
+    }
+}

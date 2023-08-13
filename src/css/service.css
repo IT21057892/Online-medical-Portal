@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Arial';
+}
+
+/*Main Image*/
+.main1 img
+{
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    width: 450px;
+}
+
+.main2 img
+{
+    margin-top: -630px;
+    margin-left: 1100px;
+    width: 825px;
+}
+
+.text h1
+{
+    width: 100%;
+    margin-top: -400px;
+    margin-left: -225px;
+    position: relative;
+    text-align: right;
+    color: white;
+    font-family: 'Arial';
+    font-size: 70px;
+}
+
+/*Description*/
+.description
+{
+    text-align: center;
+    font-family: 'Arial';
+    font-size: 20px;
+    margin-bottom: 100px;
+    margin-top: 190px;
+}
+
+.description p
+{
+    text-align: left;
+    justify-content: center;
+    margin-left: 125px;
+    margin-right: 125px;
+}
+
+/*Card Images*/
+.service1 .card .content img
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.service2 .card .content img
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.service3 .card .content img
+{
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    width: 200px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+/*Service 01*/
+.service1
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service1 .card
+{
+    display: grid;
+    border-style: solid;
+    border-color: #0096DA;
+    border-radius: 20px;
+    border-width: 3px;
+    position: relative;
+    background: white;
+    font-family: 'Arial';
+    color: black;
+    margin: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    width: 250px;
+    height: 315px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.service1 .card:hover
+{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 0 #0096DA;  
+}
+
+.service2
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service2 .card
+{
+    display: grid;
+    border-style: solid;
+    border-color: #0096DA;
+    border-radius: 20px;
+    border-width: 3px;
+    position: relative;
+    background: white;
+    font-family: 'Arial';
+    color: black;
+    margin: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    width: 250px;
+    height: 315px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.service2 .card:hover
+{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 0 #0096DA; 
+}
+
+.service3
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.service3 .card
+{
+    display: grid;
+    border-style: solid;
+    border-color: #0096DA;
+    border-radius: 20px;
+    border-width: 3px;
+    position: relative;
+    background: white;
+    font-family: 'Arial';
+    color: black;
+    margin: 25px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    width: 250px;
+    height: 315px;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+
+.service3 .card:hover
+{
+    transform: scale(1.1);
+    box-shadow: 3px 3px 3px 0 #0096DA; 
+}
+
+.button
+{
+    position: relative;
+    display: inline-block;
+    padding: 12px 40px;
+    margin: 10px 0;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 40px;
+    background-color: #0096DA;
+}
+
+.button:hover
+{
+    color: #5C5554;
+    background-color: #0096DA;
+}

@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..//css/dental.css">
+    <link rel="stylesheet" href="..//css/common-styles.css">
+    <title>Dental Unit</title>
+</head>
+<body>
+
+    <!--Header-->
+    <?php
+            include('..//includes/header.php');
+        ?>
+<!--header end-->   
+    
+    <div class="img1">
+        <img src="..//images/dental/pngwing.com (1).png">
+    </div>  
+
+    <div class="img2">
+        <img src="..//images/dental/Screenshot 2022-05-16 142546.png">
+        <div class="text">
+            <h1>Dental Unit</h1><br>
+            <h3>Creating Beautiful Smiles</h3>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <center>
+		<table border="0" class="table1">
+		<tr>
+		<td>
+		<img src="..//images/dental/overview.jpg" class="imgtable"></a><br><br><br></td>
+		
+		<td><td><td><td><td><td><td><td><td><td><td><td><b><h2 class="th1">Overview</h2></b>
+		<p class="th2">
+            Dental care is an essential part of maintaining overall good health both in children and in adults. 
+			At Health Care Unit, we believe that everybody should be able to receive the best possible dental care and treatments.
+			With a large array of skills and experience on hand, No Matter your Dental needs, from general cleanings, exams, restorative & implants, to 
+			cosmetic teeth whitening, and orthodontic treatments, our family-friendly dentists and staff are here for you and at your service. <br>
+		    Our dental clinics offer convenient hours to meet the needs of our busy patients. Each of our dental practices is composed of highly qualified dentists,
+            dental assistants, and oral hygienists. Our hospital is also equipped with cutting edge dental
+            equipment and well-trained staff who are able to put you at ease and see to your dental needs with
+            promptness and efficiency. Call or email us to make an appointment or walk in to our dental clinic near you as we take care of you.<br>
+        </p><br><br></td></td></td></td></td><br><br></td></td></td></td>
+		</td>
+        </tr>
+		</table>
+    </center>
+
+
+    <br>
+    <br>
+
+    <div class="dental-services">
+        <h1>Dental Services And Treatment</h1>
+    </div>
+
+    <div class="containor1">
+
+        <div class="card">
+            <div class="crdimg">
+                <img src="..//images/dental/general-dentist.jpg">
+            </div>
+            <h3>General Dentist</h3>
+            <p>
+                General dentistry includes a number of treatments designed to keep your teeth and gums healthy.
+                Minimize the need for expensive and painful dental treatments with recommended regular general
+                dental visits every 6 months, ensuring good oral hygiene and dental health. No matter your dental
+                needs, from general cleanings and exams, our dental staff and are here for you. <br>
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="crdimg">
+                <img src="..//images/dental/cosmeticdentistry.jpg">
+            </div>
+            <h3>Cosmetic Dentistry</h3>
+            <p>
+                Who wouldn't want a beautiful smile? Our dental surgeons are skilled in a wide range of cosmetic dentistry.
+                We offer a wide range of services to give you the smile you've always wanted.
+                Ranging from veneers to crowns, fillings, and all the way to complete reconstructions,
+                we are able to provide you with the smile you deserve to confidently wear.
+            </p>
+        </div>
+        
+        <div class="card">
+            <div class="crdimg">
+                <img src="..//images/dental/familydentistry.jpg">
+            </div>
+            <h3>Family Dentist</h3>
+            <p>
+                Our services are designed to provide great care for you and your family with a focus on comfort and quality of care designed for adults and pediatric dentistry.
+                It's essential to establish good dental care early in life and children who have positive dental experiences are likely to continue taking care of their teeth.
+                We provide kids with a fun and safe atmosphere where they will enjoy their regular visits to the dentists.
+            </p>
+        </div>
+
+    </div>
+
+    <div class="containor2">
+
+        <div class="card">
+            <div class="crdimg">
+                <img src="..//images/dental/dentalemer.jpg">
+            </div>
+            <h3>Dental Emergency</h3>
+            <p>
+                Do you find yourself in pain due to your tooth? Did you experience a chipped or broken tooth? Did you suffer from gum irritation or lost a crown? If so,
+                do not worry! At Health Care we are able to provide emergency treatment to alleviate and manage these issues.
+                Quick and effective treatment can sometimes save a tooth that might otherwise have been lost as a result due dental tooth bleeding or infections.
+                If you find yourself in an emergency situation, contact us immediately and we'll ensure one of our dentists is available and provide you with an appointment to be seen as soon as you arrive.
+            </p>
+        </div>
+
+        <div class="card">
+            <div class="crdimg">
+                <img src="..//images/dental/dental-implants.jpg">
+            </div>
+            <h3>Dental Implants</h3>
+            <p>
+                Dental implants are the only dental restoration option that preserves natural bone, actually helping to stimulate bone growth.
+                When performed by one of our experienced dental surgeons, dental implant surgery is one of the safest and most predictable procedures in dentistry.
+                Should you feel that you need or have more inquiries about dental implants, it is recommended to consult our dental surgeons by booking an appointment to discuss and evaluate your dental requirements.
+            </p>
+        </div>
+        
+        <div class="card">
+            <div class="crdimg">
+                <img src="..//images/dental/teethwhiting.jpg">
+            </div>
+            <h3>Teeth Whitening</h3>
+            <p>
+                Teeth Whitening can provide a brighter, younger looking smile.
+                Over the past several years we have helped thousands of patients achieve the smile of their dreams.
+                We offer various forms of teeth whitening procedures, the In-office Bleaching, Chair-side Bleaching and Power Bleaching are all known as whitening treatments done by a dentist.
+                This is a simple procedure that can be done in the dental office with the guidance of a dentist within 1 hour.
+            </p>
+        </div>
+
+    </div>
+
+    <br>
+    <hr class="hr1">
+
+    <center>
+		<table border="0" class="table">
+		<tr>
+		<td>
+		<img src="..//images/dental/routing.jpg" class="imgtable1"></a><br><br><br></td>
+		
+		<td><td><td><td><td><td><td><td><td><td><td><td><b><h2 class="th1">Routine Dental Check Up</h2></b>
+		<p class="th2">
+            Our dental clinics provide complete dental hygiene treatments, which<br> 
+			ensure you teeth and gums remain healthy. Postponing a dental<br> 
+			check will only increase the risk of infection and can lead to more<br> 
+			dental issues in the future. Visiting one of our highly qualified Oral<br> 
+		    Hygienists can help you to overcome preventable dental issues and<br>
+            allow you to smile confidently, as you maintain a regular scheduled<br>
+            routine as recommended every 6 months. Call or email us to get your<br>
+            treatment and plans done<br>
+        </p><br><br></td></td></td></td></td><br><br></td></td></td></td>
+		</td>
+        </tr>
+		</table>
+    </center>
+
+    <hr class="hr1">
+
+    <center>
+		<table border="0" class="table">
+		<tr>
+		<td>
+		<b><h1 class="th1">Other services offered</h1></b>
+		<p class="th2">
+			<ul>
+                <li>Restorative dentistry</li>
+                <li>Scaling, polishing and whitening</li>
+                <li>Extraction & impacted/wisdom tooth surgery</li>
+                <li>Crowns and Bridge work</li>
+                <li>Dentures</li>
+                <li>Implant dentistry</li>
+                <li>Oral and maxillofacial Surgery</li>
+                <li>Orthodontic treatment (tooth alignment)</li>
+                <li>Periodical treatment (gum disease)</li>
+                <li>Preventive dental care</li>
+                <li>Oral biopsies</li>
+                <li>Full oral rehabilitation of cancer patients</li>
+                <li>OPG X-ray (Only at Asiri Surgical Hospital)</li>
+                <li>Dental Digital X-ray (Only at Asiri Central Hospital)</li>
+            </ul>
+		</p><br><br></td></td></td></td></td><br><br></td></td></td></td></td></td>
+		<td>
+		<img src="..//images/dental/other.jpg" class="imgtable2"></a><br><br><br>
+        </td>
+		</td></tr>
+		</table>
+    </center>
+
+    <hr class="hr1">
+
+    <center>
+		<table border="0" class="table">
+		<tr>
+		<td>
+		<img src="..//images/dental/Agingteeth.jpg" class="imgtable1"></a><br><br><br></td>
+		
+		<td><td><td><td><td><td><td><td><td><td><td><td><b><h2 class="th1">Dental Health and Aging</h2></b>
+		<p class="th2">
+            One of the biggest misconceptions about dental health and aging is that <br>
+            it automatically comes with a set of ill-fitting dentures and recessive gums. <br>
+            What a happy image, as you move towards the time of your life when <br>
+            you're supposed to have the most to smile about. <br>
+        </p><br><br></td></td></td></td></td><br><br></td></td></td></td>
+		</td>
+        </tr>
+		</table>
+    </center>
+
+    <center>
+        <div class="service1">
+    
+            <div class="card">
+                <div class="content">
+                    <h3>Is loosing my teeth <br> inevitable?</h3>
+                    <h5>
+                        No - It certainly doesn't have to be. Our mouth is one of the few parts of the body that can be as healthy and
+                        active as we are in adulthood. If you brush and floss daily, lead a healthy lifestyle and see your dentist regularly,
+                        there is no reason not to enjoy a complete set of teeth until your retirement.
+                        <br>
+                        <br>
+                        <br>
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h3>Are older people prone to certain dental problems?</h3>
+                    <h5>
+                        Yes. Adults are more likely to experience certain dental problems - e.g. Cracked teeth, decay or loss of gum lines - mainly due to aging of 
+                        the teeth and other health conditions. These can be quite serious but they can be prevented. Be sure to see your dentist every 6 months and 
+                        discuss problems with your dentist when you visit your next dental unit.
+                    </h5>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="content">
+                    <h3>Is there a link between dental health and other conditions?</h3>
+                    <h5>
+                        Yes. Research shows that your oral health can play a key role in many diseases and conditions, including cardiovascular disease. There is
+                        actually a link between many medical conditions, such as diabetes and oral health. It is important to see your dentist regularly and disclose any
+                        medical conditions you may have to ensure that you receive the maximum possible treatment.
+                    </h5>
+                </div>
+            </div>
+    
+        </div>
+    </center>
+
+    <center>
+        <div class="service2">
+    
+            <div class="card">
+                <div class="content">
+                    <h3>How does oral cancer affect Me and my teeth?</h3>
+                    <h5>
+                        Oral cancer, which include cancers of the lips, tongue, cheeks, floor of mouth, and throat can be life threatening if not diagnosed
+                        and treated early. These appears as a growth or sore that doesn't go away. Some symptoms include swellings, lumps, or bumps, unexplained bleed,
+                        spots of white or red patch inside, and difficulty chewing or swelling.
+                    </h5>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="content">
+                    <h3>I'm taking quite a few medications. Can this affect my dental health?</h3>
+                    <h5>
+                        If you use several medications, you may experience dry mouth, which increases the risk of tooth decay and gum disease.
+                        The best thing is to drink plenty of water and maintain a balanced diet.
+                        Brushing with a soft brush, using fluoride toothpaste and regular flossing will be the solution.
+                    </h5>
+                </div>
+            </div>
+    
+            <div class="card">
+                <div class="content">
+                    <h3>I'm losing my teeth. Should I consider dentures?</h3>
+                    <h5>
+                        Absolutely. The toothpaste available today is not only extremely easy to wear, but they are designed to look like your natural teeth.
+                        If you experience tooth decay and you have difficulty eating or talking, we definitely recommend talking to our dentist for more information.
+                    </h5>
+                </div>
+            </div>
+    
+        </div>
+    </center>
+
+    <br>
+
+    <hr class="hr1">
+
+    <br>
+
+    <center>
+        <div class="card">
+            <div class="content">
+                <h3>
+                    If you are interested to know more information about our channeleing
+                    system please visit our channeling portal and get your self an appointment
+                </h3>
+                <div class="user-details">
+                    <a href="..//html/channeling.php" class="button">Channeling Portal</a>
+                </div>
+            </div>
+        </div>    
+    </center>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+
+   <!--footer-->
+   <?php
+            include('..//includes/footer.php');
+        ?>
+<!--footer end-->
+</body>
+</html>

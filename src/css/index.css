@@ -1,0 +1,516 @@
+/*Globle______________________________________*/
+*{
+    box-sizing: border-box;
+    display: block;
+    margin: 0;
+    padding: 0;
+    line-height: 1.3em;
+}
+
+title{
+    display: none;
+}
+
+body{
+    background-color: #fff;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+/*content*/
+.section_1{
+    padding-top: 180px;
+}
+
+.section_1 h1{
+    padding-left:7.5%;
+}
+
+.section_1 h3{
+    padding-left: 7.5%;
+}
+
+.section_1 p{
+    padding-left: 7.5%;
+}
+
+.section_1 h1{
+    font-size: 80px;
+}
+
+.section_1 h3{
+    font-size:42px ;
+}
+
+.section_1 p{
+    font-size: 20px;
+}
+
+/*Image slider___________________________________*/
+.slider{
+    width: 800px;
+    height: 820px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: 5%;
+    margin-top: -550px;
+}
+
+.images{
+    display: flex;
+    width: 100%;
+}
+
+.images img{
+    width: 783px;
+    height: 783px;
+    transition: all.15s ease;
+}
+
+.images input{
+    display: none;
+}
+
+.dots{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    position: relative;
+}
+
+.dots label{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    border: solid #01B1EC 3px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    margin: 5px;
+}
+
+.dots label:hover {
+    background: #01B1EC;
+}
+
+#img1:checked ~ .m1{
+    margin-left: 0;
+}
+
+#img2:checked ~ .m1{
+    margin-left: -100%;
+}
+
+#img3:checked ~ .m1{
+    margin-left: -200%;
+} 
+
+/*The description text(section 2)_______________________*/
+
+.section_2{
+    margin: 30px;
+}
+
+.section_2 h2{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.section_2 p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+/*Top services(section 3________________________________)*/
+/*Text description*/
+.text-description{
+    text-align: center;
+    margin-top: -55%;
+}
+
+.text-description h1{
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.text-description p{
+    font-size: 20px;
+}
+
+/*cards*/
+#bubble-img1{
+    width: 100%;
+}
+
+.card{
+    display: grid;
+    grid-template-columns: 300px;
+    grid-template-rows: 230px 210px 80px;
+    grid-template-areas: "card-image" "card-text" "card-button";
+
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 30px;
+    background: #EBF2F3;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.9);
+    text-align: center;
+    width: 310px;
+    height: 455px;
+    margin: 50px;
+}
+
+.card-section{
+    display: flex;
+    justify-content: center;
+}
+
+.card-image{
+    grid-area: card-image;
+}
+
+#c-img1{
+    background: url("..//images/home/Section 3/1.png");
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-size: cover;
+}
+
+#c-img2{
+    background: url("..//images/home/Section 3/2.png");
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-size: cover;
+    width: 200px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+#c-img3{
+    background: url("..//images/home/Section 3/3.png");
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    background-size: cover;
+    width: 200px;
+    margin-left: 45px;
+    margin-top: 10px;
+}
+
+.card-text{
+    grid-area: card-text;
+    margin: 15px;
+    padding-top: 50px;
+}
+
+.card-button{
+    grid-area: card-button;
+    margin: auto;
+    margin-top: -55px;
+}
+
+#read-more-btn{
+    border: none;
+    border-radius: 30px;
+    background: #01B1EC;
+    width: 261px;
+    height: 49px;
+    font-size: 16px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.card-button :hover{
+    transform: scale(1.1);
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.6);
+}
+
+/*common section styles*/
+.R-more{
+    text-decoration: none;
+    color: #0004ff;
+}
+/*common section styles end*/
+
+
+/*Ambulace service(section 4)________________________*/
+#bubble-img2{
+    margin-top: 470px;
+    width: 100%;
+}
+
+#ambulance-img{
+    width: 995px;
+    margin-top: -800px;
+    margin-bottom: 500px;
+    margin-left: 50%;
+    position: absolute;
+}
+
+/*Text description2*/
+.text-description2{
+    margin-top: -30%;
+    margin-left: 90px;
+    max-width: 500px;
+    position: absolute;
+}
+
+.text-description2 h1{
+    font-size: 35px;
+}
+
+.text-description2 p{
+    font-size: 20px;
+}
+
+/*About Us(Section 5)*/
+
+#bubble-img3{
+    margin-top: 400px;
+    width: 100%;
+}
+
+#aboutUS-img{
+    width: 900px;
+    margin-top: -800px;
+    margin-bottom: 500px;
+}
+
+/*Text description3*/
+.text-description3{
+    margin-top: -55%;
+    max-width: 400px;
+    position: absolute;
+    right: 0%;
+}
+
+.text-description3 h1{
+    font-size: 35px;
+}
+
+.text-description3 p{
+    font-size: 20px;
+}
+
+/*Online pharmacy*/
+#bubble-img4{
+    width: 100%;
+    margin-top: 500px;
+}
+
+#online-pharmacy-img{
+    width: 745px;
+    margin-top: -900px;
+    margin-bottom: 250px;
+    margin-left: 55%;
+}
+
+/*Text description4*/
+.text-description4{
+    margin-top: -35%;
+    margin-left: 90px;
+    max-width: 450px;
+    position: absolute;
+}
+
+.text-description4 h1{
+    font-size: 35px;
+}
+
+.text-description4 p{
+    font-size: 20px;
+}
+
+@media(max-width:1418px){
+    /*section1*/
+    .text{
+        text-align: center;
+        background-image: radial-gradient(circle, #5555dc 0%, #28bcda 100%);
+        padding: 10px 0 20px 0;
+    }
+
+    .section_1{
+        padding: 0;
+    }
+
+    .slider{
+        margin: 0;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    /*section3*/
+    .section_3{
+        background-color: #01B1EC;
+        border-radius: 25%;
+    }
+
+    .text-description{
+        max-width: 1000px;
+        margin-left: 12%;
+        margin-right: 10%;
+    }
+    
+    .card-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        margin: 25px;
+    }
+
+    #bubble-img1{
+        opacity: 0;
+    }
+
+    /*section4*/
+    .section4{
+        background-color: #01B1EC;
+        margin-top: -20%;
+        border-radius: 25%;
+    }
+
+    #bubble-img2{
+        opacity: 0;
+    }
+
+    .text-description2{
+        margin-top: -35%;
+    }
+
+    #ambulance-img{
+        width: 550px;
+        margin-top: -40%;
+    }
+
+    /*section5*/
+    .section5{
+        background-color: #01B1EC;
+        margin-top: -20%;
+        border-radius: 25%;
+        min-height: 500px;
+    }
+
+    #bubble-img3{
+        opacity: 0;
+    }
+
+    .text-description3{
+        margin-top: -820px;
+        margin-right: 50px;
+    }
+
+    #aboutUS-img{
+        width: 600px;
+        margin-top: -57%;
+    }
+
+    /*section6*/
+    .section6{
+        background-color: #01B1EC;
+        margin-top: -27%;
+        border-radius: 25%;
+        min-height: 500px;
+    }
+
+    #bubble-img4{
+        opacity: 0;
+    }
+
+    .text-description4{
+        margin-top: -510px;
+    }
+
+    #online-pharmacy-img{
+        width: 400px;
+        margin-top: -50%;
+    }
+}
+
+@media(max-width:1000px){
+    .slider{
+        width:500px;
+        height: 530px;
+    }
+
+    .images img{
+        width: 500px;
+        height: 500px;
+    }
+
+    /*section4*/
+    .section4{
+        height: 800px;
+    }
+
+    .text-description2{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+    }
+
+    #ambulance-img{
+        width: 450px;
+        margin: -10% 25% 0 25%;
+    }
+
+    /*section5*/
+    .section5{
+        height: 800px;
+    }
+
+    .text-description3{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+        margin-top: -650px;
+    }
+
+    #aboutUS-img{
+        width: 450px;
+        margin: -150px 25% 100px 25%;
+    }
+
+    /*section6*/
+    .section6{
+        height: 800px;
+    }
+
+    .text-description4{
+        display: flex;
+        flex-direction: column;
+        margin-left: 25%;
+        margin-right: 25%;
+        text-align: center;
+        margin-top: -550px;
+    }
+
+    #online-pharmacy-img{
+        width: 400px;
+        margin: -150px 25% 5px 25%;
+        
+    }
+}
+
+@media(max-width:760px){
+    /*section4*/
+    #ambulance-img{
+        margin: 0 25% 4% 25%;
+    }
+
+    /*section5*/
+    #aboutUS-img{
+        margin: 0 25% 4% 25%;
+    }
+
+    /*section6*/
+    #online-pharmacy-img{
+        margin: 0 25% 4% 25%;
+    }
+}
+/*content end*/

@@ -1,0 +1,187 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+li,a{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    color: #000;
+    text-decoration: none;
+}
+
+header{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 25px 5%;
+    margin-bottom: 50px;
+}
+
+/*logo style*/
+.logo{
+    width:125px ;
+    cursor: pointer;
+    margin-right: auto;
+}
+
+.nav_links{
+    list-style: none;
+}
+
+.nav_links li{
+    display: inline-block;
+    padding: 0px 10px;
+}
+
+.nav_links li a:hover{
+    color: #0197E6;
+}
+
+.always-btns{
+    display: flex;
+}
+
+/*sign in button*/
+.sign_in{
+    background-color: #0197E6;
+    width: 134px;
+    height: 35px;
+    border-radius: 25px;
+    padding: 8px 34px;
+    border: none;
+    margin-left: 25px;
+}
+
+.sign_in label a{
+    color: #fff;
+}
+
+.sign_in label a:hover{
+    color: #707070;
+
+}
+
+/*sign up button*/
+.sign_up{
+    background-color: #0197E6;
+    width: 134px;
+    height: 35px;
+    border-radius: 25px;
+    padding: 8px 34px;
+    border: none;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.sign_up label a{
+    color: #fff;
+}
+
+.sign_up label a:hover{
+    color: #707070;
+
+}
+
+/*Search bar*/
+.search-field{
+    display: flex;
+    width: 250px;
+    height: 37px;
+    padding: 0.3%;
+    border-radius: 50px;
+    border: none;
+    cursor: text;
+    cursor: pointer;
+    
+}
+
+.search-bar{
+    width: 100%;
+    background-color: rgba(1, 151, 230, 0.3);
+    display: flex;
+    border-radius: 50px;
+}
+
+.search-bar input{
+    background: transparent;
+    border: 0;
+    font-size: 16px;
+}
+
+::placeholder{
+    color:rgb(34, 32, 32);
+    opacity: 40%;
+    padding-left: 12%;
+}
+
+.search-bar button img{
+    width: 25px;
+    opacity: 40%;
+    padding: 15%;
+    margin: 10%;
+}
+
+.search-bar button{
+    border: none;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+@media(max-width:1230px){
+    .header{
+        display: block;
+    }
+
+    .list{
+      background-color: #0197E6;
+
+    }
+
+    .nav_links li{
+        padding: 15px;
+    }
+
+    .nav_links li a{
+        color: #fff;
+    }
+
+    .nav_links li a:hover{
+        color: #000;
+    }
+
+    .always-btns{
+        display: flex;
+        margin-top: -95px;
+        margin-left: 50%;
+    }
+}
+
+@media(max-width:1187px){
+    .sign_in label a , .sign_up label a{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:1088px){
+    .list{
+        display: flex;
+        justify-content: center;
+    }
+
+    .always-btns{
+        justify-content: center;
+        margin: 0;
+        padding-top: 5px;
+    }
+}
+
+@media(max-width:547px){
+    .sign_in, .sign_up{
+        padding: 8px;
+    }
+}
